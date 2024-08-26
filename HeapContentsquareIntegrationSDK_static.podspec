@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'HeapContentsquareIntegrationSDK_static'
-  s.version = '0.7.0'
+  s.version = '0.7.1'
   s.license = { :type => 'MIT' }
   s.summary = 'HeapContentsquareIntegration enables combined analysis between Heap and Contentsquare.'
   s.homepage = 'https://contentsquare.com/'
@@ -12,6 +12,8 @@ Pod::Spec.new do |s|
 
   s.cocoapods_version = '>= 1.7.0'
 
+  s.static_framework = true
+  
   s.dependency 'HeapSwiftCore', '~> 0.7'
   s.dependency 'CS_iOS_SDK_STATIC', '~> 4.33'
 

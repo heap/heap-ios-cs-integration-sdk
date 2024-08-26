@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'HeapContentsquareIntegrationSDK'
-  s.version = '0.7.0'
+  s.version = '0.7.1'
   s.license = { :type => 'MIT' }
   s.summary = 'HeapContentsquareIntegration enables combined analysis between Heap and Contentsquare.'
   s.homepage = 'https://contentsquare.com/'

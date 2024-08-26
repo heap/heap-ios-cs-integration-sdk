@@ -25,8 +25,8 @@ let package = Package(
             ]),
         .binaryTarget(
             name: "HeapContentsquareIntegrationImplementation",
-            url: "https://cdn.heapanalytics.com/ios/heap-ios-cs-integration-0.7.0.zip",
-            checksum: "092a08880c87276743827da7bb8e5acee89be3299b9209c157c7cb1c52b62923"
+            url: "https://cdn.heapanalytics.com/ios/heap-ios-cs-integration-0.7.1.zip",
+            checksum: "85465ba57a631f3b1c5ec54afcf81577b95a017dc1476b043f00110a4f8f5f1d"
         ),
     ]
 )
