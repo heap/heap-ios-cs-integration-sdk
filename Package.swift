@@ -12,7 +12,7 @@ let package = Package(
             targets: ["HeapContentsquareIntegrationSDK"])
     ],
     dependencies: [
-        .package(url: "https://github.com/heap/heap-swift-core-sdk.git", from: "0.6.1"),
+        .package(url: "https://github.com/heap/heap-swift-core-sdk.git", from: "0.7.0"),
         .package(url: "https://github.com/ContentSquare/CS_iOS_SDK.git", from: "4.33.0"),
     ],
     targets: [
@@ -25,8 +25,8 @@ let package = Package(
             ]),
         .binaryTarget(
             name: "HeapContentsquareIntegrationImplementation",
-            url: "https://cdn.heapanalytics.com/ios/heap-ios-cs-integration-0.6.0.zip",
-            checksum: "596d8b21efdbb15364679bfb7b2fe5a481e9fb392cdd5474ad335faf46296b66"
+            url: "https://cdn.heapanalytics.com/ios/heap-ios-cs-integration-0.7.0.zip",
+            checksum: "092a08880c87276743827da7bb8e5acee89be3299b9209c157c7cb1c52b62923"
         ),
     ]
 )
