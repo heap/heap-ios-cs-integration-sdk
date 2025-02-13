@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "HeapContentsquareIntegrationSDK",
     platforms: [
-        .iOS(.v12),
+        .iOS(.v13),
     ],
     products: [
         .library(
@@ -12,8 +12,8 @@ let package = Package(
             targets: ["HeapContentsquareIntegrationSDK"])
     ],
     dependencies: [
-        .package(url: "https://github.com/heap/heap-swift-core-sdk.git", from: "0.7.0"),
-        .package(url: "https://github.com/ContentSquare/CS_iOS_SDK.git", from: "4.33.0"),
+        .package(url: "https://github.com/heap/heap-swift-core-sdk.git", from: "0.8.0"),
+        .package(url: "https://github.com/ContentSquare/CS_iOS_SDK.git", from: "4.39.0"),
     ],
     targets: [
         .target(
@@ -25,8 +25,8 @@ let package = Package(
             ]),
         .binaryTarget(
             name: "HeapContentsquareIntegrationImplementation",
-            url: "https://cdn.heapanalytics.com/ios/heap-ios-cs-integration-0.7.1.zip",
-            checksum: "85465ba57a631f3b1c5ec54afcf81577b95a017dc1476b043f00110a4f8f5f1d"
+            url: "https://github.com/heap/heap-ios-cs-integration-sdk/releases/download/0.8.0/package.zip",
+            checksum: "328fb352623e92b4553ebaca7c3ccc579171923488e2debbbbc1fe236ee6e7b8"
         ),
     ]
 )
